@@ -34,7 +34,17 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
+interface JobItem {
+  title: string;
+  years: string;
+  description: string;
+  icon: React.ReactNode; 
+  date: string;
+  skill?: string;  
+  skills?: string; 
+}
+
+export const experiencesData: JobItem[] =[
   {
     title: "Technical Expert, Microsoft",
     years: "4 yrs 9 mos",
@@ -140,7 +150,7 @@ export const experiencesData = [
   {
     title: "Disaster Recovery Manager, Marsh McLennan (Contract)",
     years: "2 mos, Dublin",
-    description:["• Led the implementation of active/active SQL DR and geographically dispersed clustering, eliminating annual BCDR testing.","• Automated infrastructure restoration and backups using AWS and Azure scripting, saving time and resources.", "• roposed legal changes to contracts regarding ADR, ensuring compliance and risk mitigation"],
+    description:"• Led the implementation of active/active SQL DR and geographically dispersed clustering, eliminating annual BCDR testing.• Automated infrastructure restoration and backups using AWS and Azure scripting, saving time and resources.• roposed legal changes to contracts regarding ADR, ensuring compliance and risk mitigation",
     skill: "Skills: ",
     skills:"ADRs",
     icon: React.createElement(CgWorkAlt),
