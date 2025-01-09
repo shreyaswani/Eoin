@@ -42,9 +42,13 @@ export default function ThemeContextProvider({
         document.documentElement.classList.add("dark");
       }
       else {
-        setTheme("dark");
-        document.documentElement.classList.add("dark");
+        document.documentElement.classList.remove("dark");
       }
+    }
+    else {
+      setTheme("dark");
+      document.documentElement.classList.add("dark");
+      window.localStorage.setItem("theme", "dark");
     }
   }, []);
 

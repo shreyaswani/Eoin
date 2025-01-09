@@ -97,7 +97,7 @@ export default function Intro() {
           Download CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
-
+        <div className="flex flex-wrap justify-center gap-2 mt-2 sm:mt-0 sm:flex-row">
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://uk.linkedin.com/in/chiefbuttonpusher"
@@ -128,6 +128,7 @@ export default function Intro() {
         >
           <BsPinterest />
         </a>
+        </div>
       </motion.div>
     </section>
   );
