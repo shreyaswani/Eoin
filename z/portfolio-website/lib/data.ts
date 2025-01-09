@@ -71,7 +71,6 @@ export const experiencesData: JobItem[] =[
     icon: React.createElement(FaMicrosoft),
     date: "2002-2004",
   },
-  // CgWorkAlt
   {
     title: "Senior Deployment Engineer, Sureskills(Dell)",
     years: "3 mos",
@@ -155,9 +154,8 @@ export const experiencesData: JobItem[] =[
     skills:"ADRs",
     icon: React.createElement(CgWorkAlt),
     date: "2022 - 2023",
-  }
-
-] as const;
+  },
+];
 
 export const projectsData = [
   {
