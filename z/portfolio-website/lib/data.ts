@@ -1,11 +1,9 @@
 import React from "react";
-import { CgAbstract, CgWorkAlt } from "react-icons/cg";
-import { FaDumbbell, FaMicrosoft, FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
-import project3 from "@/public/project33.jpeg";
+import {  CgWorkAlt } from "react-icons/cg";
+import {  FaMicrosoft } from "react-icons/fa";
+import project3 from "@/public/project3.jpeg";
+import project1 from "@/public/project1.webp"
+import project2 from "@/public/project2.webp"
 
 export const links = [
   {
@@ -163,14 +161,14 @@ export const projectsData = [
     description:
       "I hit 50 yrs young cashed in the pension, traveled the world with the girl of my dreams, and now use my experience to assist companies and individuals with AGI/ChatGPT & automation.",
     tags: ["Microsoft Technologies", "AWS", "AI","Graphic Design"],
-    imageUrl: corpcommentImg,
+    imageUrl: project1,
   },
   {
     title: "Automated Disaster Recovery",
     description:
-      "",
+      "Expert in automated disaster recovery, Windows DevOps, and cloud project management, ensuring resilient and efficient operations.",
     tags: ["Project Managment","Cloud","Team Lead", "Windows DevOps"],
-    imageUrl: rmtdevImg,
+    imageUrl: project2,
   },
   {
     title: "Marsh McLennon",
